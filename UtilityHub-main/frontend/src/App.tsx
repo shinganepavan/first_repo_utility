@@ -36,8 +36,8 @@ function App() {
                 {/* Fallback route */}
                 <Route path="*" element={
                   <div className="py-20 text-center">
-                    <h2 className="text-xl font-bold text-slate-800 dark:text-white mb-4">Page Not Found</h2>
-                    <a href="/" className="text-indigo-500 hover:underline">Return to Home</a>
+                    <h2 className="text-xl font-bold text-slate-800 dark:text-white mb-4">Page Not Found sorry</h2>
+                    <a href="/" className="text-indigo-500 hover:underline">Return to Home </a>
                   </div>
                 } />
               </Routes>
