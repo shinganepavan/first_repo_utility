@@ -30,7 +30,7 @@ export const About: React.FC = () => {
           <Sparkles className="w-5 h-5" />
         </span>
         <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white">
-          About This Ai Based System
+          About Utility AI System
         </h1>
         <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
           UtilityHub AI is a professional developers and writers toolbox designed for speed, security, and portability. It replaces bookmarks, scattered online converters, and blackbox web services with a single, premium workbench.
