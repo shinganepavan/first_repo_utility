@@ -31,7 +31,7 @@ COPY --from=frontend-builder /app/frontend/dist /usr/share/nginx/html
 
 # Configure nginx to serve frontend and proxy API requests
 RUN echo 'server { \
-        listen 8080; \
+        listen 10000; \
         location / { \
             root /usr/share/nginx/html; \
             try_files $uri $uri/ /index.html; \
@@ -46,7 +46,7 @@ RUN echo 'server { \
     }' > /etc/nginx/conf.d/default.conf
 
 # Expose ports
-EXPOSE 8000 8080
+EXPOSE 10000
 
 # Set environment variable to use SQLite instead of PostgreSQL
 ENV DATABASE_URL=sqlite:////app/backend/utilityhub.db
